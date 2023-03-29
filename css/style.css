@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* css reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* background-color: #ffe89d; */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header section */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #f5db3c;
+}
+
+
+/* scrollbar design  */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* logo secction  */
+.logo img {
+    width: 155px;
+}
+
+/* navbar section */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    margin: 8px 33px;
+    padding: 4px 3px;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#navbar ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 0.12s ease-in;
+}
+
+
+/* home section  */
+#home {
+    height: 85.2vh;
+}
+
+#home::before {
+    content: "";
+    background: url(../Img/IMG_20230324_172620.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    z-index: -1;
+}
+
+.home {
+    width: 900px;
+    margin: 150px 45%;
+}
+
+.home-content h1,
+p {
+    color: white;
+}
+
+.home-content h1 {
+    margin: 26px 49px;
+    padding: 3px 30px;
+    font-size: 2.3rem;
+}
+
+.home-content h1 span {
+    /* color: #f5db3c; */
+    color: yellow;
+}
+
+.home-content p {
+    margin: 10px 11px;
+    padding: 3px 30px;
+    font-size: 1.6em;
+}
+
+.btn-section {
+    margin: 32px 131px;
+}
+
+.btn-section .btn {
+    display: block;
+    color: white;
+    width: 216px;
+    margin: 60px 178px;
+    padding: 8px 14px;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2.8px 2.8px 15px black;
+    cursor: pointer;
+}
+
+.btn-section .btn:hover {
+    background-color: #f5db3c;
+    color: black;
+    transition: 0.5s ease-out;
+}
+
+/* services sectin  */
+#services {
+    height: 60%;
+}
+
+#services::before {
+    content: "";
+    background: url(../Img/dl.beatsnoop.com-high-c90071a2e93e3756af.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 120vh;
+    z-index: -1;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.h-services {
+    position: absolute;
+    top: 129vh;
+    left: 58.4vw;
+}
+
+
+.box {
+    width: 350px;
+    height: 400px;
+    padding: 22px 24px;
+    margin: 200px 20px;
+    /* background-color: white; */
+    overflow: auto;
+    box-shadow: 2.8px 2.8px 15px black;
+}
+
+.box p {
+    color: black;
+}
+
+.box img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.box h2 {
+    margin: 10px 20px;
+}
+
+/* order section  */
+#order-now {
+    height: 40vh;
+}
+
+#order-now::before {
+    content: "";
+    background: url(../Img/7343215.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 220vh;
+    left: 0;
+    z-index: -1;
+}
+
+.order-form {
+    /* border: 2px solid black; */
+    width: 550px;
+    margin: 280px 1000px;
+    padding: 0px 10px;
+    height: 550px;
+    box-shadow: 2.8px 2.8px 15px black;
+    border-radius: 15px;
+}
+.order-form h2{
+  margin-top: 30px;
+}
+
+::placeholder {
+    color: black;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type='text'],
+label {
+    display: block;
+}
+
+input[type='text'],
+input[type='number'] {
+    padding: 9px 20px;
+    margin: 20px 45px;
+    width: 420px;
+    /* background-color: lightblue; */
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+
+.Ptype {
+    margin: 15px;
+}
+
+.Pcount {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.Pizza-Lists {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 10px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-btn {
+    display: block;
+    background-color: #f5db3c;
+    width: 415px;
+    margin: 21px 50px;
+    padding: 8px 14px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 33px;
+    border: none;
+    box-shadow: 2.8px 2.8px 15px black;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+.order-btn:hover {
+    background-color: rgb(255, 60, 60);
+    transition: 0.4s ease-out;
+    color: white;
+}
+
+
+
+
+
+
+/* contact section  */
+
+
+#contact{
+height: 40vh;
+}
+
+#contact::before {
+    content: "";
+    background: url(../Img/top-view-arrangement-with-salad-boxes-sauce.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 320vh;
+    left: 0;
+    z-index: -1;
+}
+.container{
+    border-radius: 10px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 600px;
+    height: 710px;
+    margin: 430px 70px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 2.8px 2.8px 15px black;
+    overflow: auto;
+
+}
+/* .container h1{
+    text-align: center;
+    margin-bottom: 5px;
+} */
+.container input,textarea{
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius:35px;
+    width: 500px;
+    height: 45px;
+    margin: 15px 35px;
+    padding: 10px;
+}
+.container button{
+    display: block;
+    /* margin: auto; */
+    margin-left: 30px;
+    padding: 10px;
+    width: 26.5em;
+    border: 1px solid white;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 19px;
+}
+.container button:hover{
+    background-color: rgb(255, 9, 9);
+    border: 1px solid red;
+    color:rgb(255, 255, 255);
+}
+.container .btnSub{
+    margin-top: 20px;
+}
+.container .btnReset{
+    margin-top: 25px;
+}
+/* utility classes  */
+.center {
+    text-align: center;
+}
+
+.h-primary {
+    font-size: 3rem;
+}

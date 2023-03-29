@@ -1,0 +1,67 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+/* #navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo img{
+    width:110px;
+} */
+/* #navbar ul{
+} */
+/* #navbar ul li{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#navbar ul li a{
+    text-decoration: none;
+    margin: 8px 15px;
+    padding: 4px 3px
+} */
+
+
+
+@media screen and (max-width:480px){
+   /* navbar section  */
+   /* .logo img{
+    width:130px;
+   }
+   #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   #navbar ul li a{
+    text-decoration: none;
+    margin: 8px 5px;
+    padding: 3px 9px;
+   } */
+   
+   header
+   {
+    width: 200vw;
+   }
+   .services{
+    flex-direction: column;
+   }
+
+
+
+
+
+
+
+
+   /* #contact,#order-now,#services{
+    display: none;
+   } */
+}

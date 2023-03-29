@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pizza | Hub</title>
+        <link rel="shortcut icon" href="Img/Screenshot 2023-03-24 175320.png"
+            type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/phone.css">
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div class="logo" id="logo1">
+                    <img src="Img/logo.png" alt="Logo">
+                </div>
+                <ul>
+                    <li id="items-1" class="items"><a href="#">HOME</a></li>
+                    <li id="items-2" class="items"><a href="#services">SERVICES</a></li>
+                    <li id="items-3" class="items"><a href="#order-now">ORDER NOW</a></li>
+                    <li id="items-5" class="items"><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="home">
+                <div class="home-content">
+                    <h1 class="h1-primary center">Welcome To <span>Pizza</span>
+                        Hub 🍕</h1>
+                    <p class="para1 center">Lorem ipsum dolor sit amet
+                        consectetur
+                        adipisicing elit. Ipsa nemo ex quisquam sunt ipsum, enim
+                        optio, eum deleniti sint amet dicta quo, veritatis modi
+                        minima aliquid quas. Eius molestias rem maiores? </p>
+                </div>
+                <div class="btn-section">
+                    <a href="#order-now" class="btn center" style="text-decoration: none;;">ORDER NOW</a>
+                </div>
+            </div>
+        </section>
+        <section id="services">
+            <h1 class="h-primary center h-services">SERVICES</h1>
+            <div class="services">
+                <div class="box" id="box-1">
+                    <img src="Img/10219-removebg-preview.png" alt="">
+                    <h2 class="h-secondary center">Pizza order</h2>
+                    <p class="para2 center">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Totam magni voluptas
+                        quisquam, minima quia, mollitia vitae ducimus, odio
+                        quibusdam laudantium itaque. </p>
+                </div>
+                <div class="box" id="box-2">
+                    <img src="Img/19978-removebg-preview.png" alt="" style="width:180;margin-top: 20px;">
+                    <h2 class="h-secondary center">Multiple Pizza's</h2>
+                    <p class="para2 center">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Totam magni voluptas
+                        quisquam, minima quia, mollitia vitae ducimus, odio
+                        quibusdam laudantium itaque. </p>
+                </div>
+                <div class="box" id="box-3">
+                    <img src="Img/3672341-removebg-preview.png" alt="">
+                    <h2 class="h-secondary center">Home Delivary</h2>
+                    <p class="para2 center">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Totam magni voluptas
+                        quisquam, minima quia, mollitia vitae ducimus, odio
+                        quibusdam laudantium itaque. Provident </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="order-now">
+            <div class="order-form">
+                <h2 class="h-secondary center">ORDER NOW</h2>
+                <form action="" method="get">
+                    <div class="name">
+                       <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+                    </div>
+                    <div>
+                        <input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number" required>
+                    </div>
+                    <label class="Ptype"for="pizza">Select Pizza Type :</label>
+                    <div class="Pizza-Lists">
+                    <input type="checkbox" name="pizza" id="pizza" class="checkbox">Chicken Pizza
+                    <input type="checkbox" name="pizza" id="pizza" class="checkbox">Onion Pizza
+                    <input type="checkbox" name="pizza" id="pizza" class="checkbox">Veg Pizza
+                    <input type="checkbox" name="pizza" id="pizza" class="checkbox">cheese Pizza
+                </div>
+                    <div>
+                        <input type="text" name="pizza" id="pizza" placeholder="If u didn't found your pizza, Mention it">
+                    </div>
+                   <div>
+                    <label for="count" class="Pcount">How many Pizza You want ?</label>
+                    <input type="number" name="pizza-count" id="count"
+                        placeholder="How many ?">
+                   </div>
+                   <div class="">
+                    <input type="button" class="btn order-btn" value="ORDER">
+                   </div>
+                </form>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h1 class="center h-primary">CONTACT US</h1>
+                <form action="">
+                    <div>
+                        <input type="text" placeholder="Enter you Fisrt Name..">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Enter you Last Name..">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Enter you Gender..">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Enter you Phone Number..">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Enter you Email..">
+                    </div>
+                    <div class="text-area">
+                        <label for="">Message :</label>
+                        <textarea name="" id="text" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btnSub">Submit</button>
+                    </div>
+                    <div>
+                        <button type="reset" class="btnReset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
